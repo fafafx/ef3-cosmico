@@ -279,13 +279,13 @@ hr {
 }
 
 .scItem {
+    display: flex;
     width: 255px;
-    height: 140px;
+    height: 150px;
     @include estilo-cajas;
     text-align: center;
-    position: relative;
-
-
+    position: relative; 
+    
 }
 
 .portfolioItem {
@@ -336,9 +336,9 @@ hr {
 }
 
 .imgFit {
+    align-self: center;
     max-width: 100%;
-    max-height: 100%;
-    display: block;
+   
 }
 
 .imgGallery {
@@ -511,8 +511,8 @@ legend {
     }
 
     .scItem {
+        
         width: 100%;
-
         margin-bottom: 1rem;
     }
 
@@ -786,10 +786,11 @@ legend {
 }
 
 
-.roundUp{-webkit-border-top-left-radius: 8px;
+.roundUp {
+    -webkit-border-top-left-radius: 8px;
     -webkit-border-top-right-radius: 8px;
     -moz-border-radius-topleft: 8px;
     -moz-border-radius-topright: 8px;
     border-top-left-radius: 8px;
-    border-top-right-radius: 8px;}
-
+    border-top-right-radius: 8px;
+}

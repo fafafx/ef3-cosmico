@@ -208,8 +208,9 @@ hr {
     transform: scale(0.9); }
 
 .scItem {
+  display: flex;
   width: 255px;
-  height: 140px;
+  height: 150px;
   background: rgba(255, 255, 255, 0.2) !important;
   background: -webkit-linear-gradient(top left, white, rgba(244, 235, 240, 0.2)) !important;
   background: -moz-linear-gradient(top left, white, rgba(244, 235, 240, 0.2)) !important;
@@ -293,9 +294,8 @@ hr {
   padding: 0; }
 
 .imgFit {
-  max-width: 100%;
-  max-height: 100%;
-  display: block; }
+  align-self: center;
+  max-width: 100%; }
 
 .imgGallery {
   border-radius: 2rem; }
